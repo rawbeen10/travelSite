@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courgette&family=Exo+2&family=Lilita+One&family=Sen&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@900&family=Oswald:wght@300&display=swap');
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a, img, video {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+.nav {
+    padding-left: 0em;
+    padding-top: 0%;
+    list-style-type: none;
+    font-size: 100%;
+    font-family:'Oswald', sans-serif;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    top: 0;
+    width:100%;
+  }
+  
+  li {
+    float:left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: #cc4400;
+    text-decoration: underline;
+  }
+  .active {
+    background-color: #2f09bb;
+  }
+
+
+  #bg-video {
+    height: 80vh;
+    width: 100vw;
+    object-fit:fill;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    
+  }
+
+.hero {
+    background-position: center;
+    text-align: center;
+    color: #fdfdfc;
+    padding: 100px 0;
+}
+
+.content{
+    position: relative;
+    top: 60px;
+    z-index: -1;
+}
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Merienda', cursive;
+}
+
+.hero h2{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+.cta-button {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;;
+    display: inline-block;
+    background-color: #1273f3;
+    color: #fff;
+    position: relative;
+    top: 70px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #cc4400;
+}
+
+/* New Styles for Image and Video Sections */
+
+.image-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.image-section h2 {
+    text-decoration: underline;
+    color: #000000;
+    font-size: 30px;
+    padding: 20px 0px;
+    font-family: 'Merienda', cursive ;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 30%;
+    height:250px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.image-container img:hover{
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45);;
+}
+
+.video-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.video-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+footer{
+    padding-top: 5px;
+    background-color:antiquewhite;
+    text-align: center;
+}

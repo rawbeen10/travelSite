@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&family=Oswald:wght@300&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body, h1, h2, p, ul, li, a, img, video {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+.nav {
+    padding-left: 0em;
+    padding-top: 0%;
+    list-style-type: none;
+    font-size: 100%;
+    font-family:'Oswald', sans-serif;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:fixed;
+    top: 0;
+    width:100%;
+  }
+  
+  li {
+    float:left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    background-color: #cc4400;
+    text-decoration: underline;
+  }
+  .active {
+    background-color: #cc4400;
+  }
+
+.plan{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+  .plan span{
+    float: right;
+  }
+
+  .avl{
+    width:min-content;
+    background-color: rgb(25, 170, 25);
+    border: none;
+    border-radius: 5px;
+    padding:2px 5px ;
+    color: #fff;
+  }
+          /* Styles for the product card */
+.plan-card {
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+.plan-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+        .plan-card p{
+          font-family: 'Ubuntu', sans-serif;
+        }
+
+  .plan-card h2{
+    font-family: 'Lilita One', cursive;
+  }
+        .product-name {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .view-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-out;
+        }
+
+        /* Hover effect for the button */
+        .view-button:hover {
+            background-color:#cc4400;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    background-color:antiquewhite;
+    text-align: center;
+}
